@@ -18,8 +18,13 @@ limited punctuation (. : /) etc.
 *  "SF Digital Readout Heavy" \
 *  "Seven Segment" \
 
-#### 800 iterations - char train=0.273%, word train=3.47%, word train=0%
+#### 14000 iterations -  char train=0.186%, word train=0.4%
 
-* [Download best version - 10.8 MB](). use with `-l ssd`.
-* [Download fast version - 1.38 MB](). use with `-l ssd_int`.
-* [Download older best version - 10.MB](). use with `-l 7seg`.
+* [Download best version - 10.7 MB](ssd.traineddata). use with `-l ssd`.
+* [Download fast/integer version - 1.37 MB](ssd_int.traineddata). use with `-l ssd_int`.
+* [Download older best version - 10.MB](7seg.traineddata). use with `-l 7seg`.
+
+#### Evaluation 
+
+Evaluation was done using synthetic data generated using an evaluation text of over 440 lines 
+with only numbers and limited punctuation (. : /) using same 3 fonts.

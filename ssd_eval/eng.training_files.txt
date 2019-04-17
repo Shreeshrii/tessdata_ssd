@@ -1,0 +1,3 @@
+./ssd_eval/eng.DB_LCD_Temp_Heavy.exp0.lstmf
+./ssd_eval/eng.Seven_Segment.exp0.lstmf
+./ssd_eval/eng.SF_Digital_Readout_Heavy.exp0.lstmf
