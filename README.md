@@ -10,7 +10,10 @@ You will also need files from `tesseract_ocr/langdata` and `tesseract_ocr/tessda
 
 ### Finetune Plus Training from tessdata_best/eng.traineddata 
 
-#### using fonts:
+Finetune Plus training was done using a training text of 9700+ lines with only numbers and
+limited punctuation (. : /) etc.
+
+#### Three Seven Segment Display fonts were used for making synthetic training data.
 *  "DB LCD Temp Heavy" \
 *  "SF Digital Readout Heavy" \
 *  "Seven Segment" \
@@ -19,3 +22,4 @@ You will also need files from `tesseract_ocr/langdata` and `tesseract_ocr/tessda
 
 * [Download best version - 10.8 MB](). use with `-l ssd`.
 * [Download fast version - 1.38 MB](). use with `-l ssd_int`.
+* [Download older best version - 10.MB](). use with `-l 7seg`.
