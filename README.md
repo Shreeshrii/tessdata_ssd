@@ -22,9 +22,12 @@ limited punctuation (. : /) etc.
 
 * [Download best version - 10.7 MB](ssd.traineddata). use with `-l ssd`.
 * [Download fast/integer version - 1.37 MB](ssd_int.traineddata). use with `-l ssd_int`.
-* [Download older best version - 10.MB](7seg.traineddata). use with `-l 7seg`.
+* [Download older best version - 10.9 MB](7seg.traineddata). use with `-l 7seg`.
 
 #### Evaluation 
 
 Evaluation was done using synthetic data generated using an evaluation text of over 440 lines 
 with only numbers and limited punctuation (. : /) using same 3 fonts.
+
+Test of a small sample of real life images gives better results with the older 7seg.traineddata.
+See https://github.com/Shreeshrii/tessdata_ssd/issues/1 for details
