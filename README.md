@@ -1,7 +1,7 @@
 # tessdata_ssd
 Traineddata for Tesseract 4 for recognizing Seven Segment Display
 
-This is a proof of concept traineddata in response to [this post in tesseract-ocr google group](https://groups.google.com/d/msgid/tesseract-ocr/b7fc9a05-8d8d-4e68-ac02-2e71b0078557%40googlegroups.com).
+This is a proof of concept traineddata in response to these posts in tesseract-ocr google group, [1](https://groups.google.com/d/msgid/tesseract-ocr/b7fc9a05-8d8d-4e68-ac02-2e71b0078557%40googlegroups.com) and [2]( https://groups.google.com/d/msgid/tesseract-ocr/b1bf50a7-6d94-485e-877a-86027310a265%40googlegroups.com).
 
 The training text and scripts used are provided for reference. 
 
